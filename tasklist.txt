@@ -1,0 +1,8 @@
+#Add JWT Authentication - Learn Passport JWT
+// Upon Registering add the user to the database. Encrypt password with bcrypt
+// Upon Login, provide user with a jwt token with a duration of 1hr
+
+
+
+#Make sure only the author of the story has the access to update the story. Meaning the update route should only be accessible by the author 
+//Verify the identity of the user. Do I ask for the user to input their id(that's their unique identification number) then I'll run it through if it matches the author of the story

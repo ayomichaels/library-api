@@ -2,7 +2,7 @@ const fs = require('fs')
 const filename = 'text.txt'
 const paragraph = fs.readFileSync(filename).toString()
 // const reg = new RegExp('ab*')
-const pattern = /par/mig;
+const pattern = /par/mig; //consult 30days of nodejs for mig
 const myArray = paragraph.match(pattern)
 // console.log(myArray);
 
